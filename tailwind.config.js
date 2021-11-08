@@ -7,6 +7,12 @@ module.exports = {
       serif: ['Space Mono', 'serif']
     },
     extend: {
+      width: {
+        "100" : "100px",
+      },
+      height: {
+        "100" : "100px",
+      },
       maxWidth: {
         "750" : '750px'
       },
