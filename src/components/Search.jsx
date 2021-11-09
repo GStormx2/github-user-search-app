@@ -37,7 +37,7 @@ const Search = () => {
         <div className="flex justify-between items-center bg-app-card-light p-2 mb-7 rounded-lg transition-all duration-300 dark:shadow-dark-dreamy shadow-dreamy dark:bg-app-card-dark">
             <div className="flex-1 flex items-center gap-7">
                 <img className="pl-3" src={search_logo} alt="search logo"></img>
-                <input className="sm:text-h3 sm:leading-normal md:focus:ring-2 md:focus:ring-blue-500 text-search transition-all duration-300 focus:placeholder-opacity-0 dark:text-white dark:bg-app-card-dark w-full h-10 focus:outline-none placeholder-search dark:placeholder-white rounded-md" ref={usernameRef} placeholder="Search Github Username..."></input>
+                <input className="sm:text-h3 sm:leading-normal md:focus:ring-2 md:focus:ring-blue-500 text-search transition-all duration-300 focus:placeholder-opacity-0 dark:text-white dark:bg-app-card-dark w-full h-10 focus:outline-none placeholder-search dark:placeholder-white rounded-md" ref={usernameRef} placeholder="Github Username..."></input>
                 
             </div>
             <div className="flex items-center">
