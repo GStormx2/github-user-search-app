@@ -22,6 +22,9 @@ module.exports = {
       maxWidth: {
         "750" : '730px'
       },
+      minWidth: {
+        "520" : "520px",
+      },
       fontSize : {
         "h1" : "26px",
         "h2" : "22px",
