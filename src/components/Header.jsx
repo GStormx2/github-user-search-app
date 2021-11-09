@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import sun from '../assets/sun.svg';
 import moon from '../assets/moon.svg';
 import { useUserData } from '../context/UserContext';
