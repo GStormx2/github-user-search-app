@@ -61,6 +61,7 @@ module.exports = {
     extend: {
       cursor: ['hover', 'focus'],
       boxShadow: ['dark'],
+      transitionProperty: ['responsive', 'motion-safe', 'motion-reduce'],
     },
   },
   plugins: [],

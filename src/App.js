@@ -8,7 +8,7 @@ import { ContextProvider } from './context/UserContext';
 
 const App = () => {
   return (
-      <div className="flex justify-center items-center h-screen bg-app-light dark:bg-app-dark">
+      <div className="flex justify-center items-center h-screen bg-app-light transition duration-300 dark:bg-app-dark">
         <div className="flex flex-col w-2/3 max-w-750">
           <ContextProvider>
             <Header></Header>
