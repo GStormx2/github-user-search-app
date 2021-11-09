@@ -6,6 +6,10 @@ module.exports = {
       sans: ['Space Mono', 'sans-serif'],
       serif: ['Space Mono', 'serif']
     },
+    screens: {
+      "md" : {"max" : "930px"},
+      "sm" : {"max" : "660px"},
+    },
     extend: {
       width: {
         "img-big" : "117px",
