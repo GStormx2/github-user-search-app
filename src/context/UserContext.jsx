@@ -8,11 +8,14 @@ export const useUserData = () => {
 export const ContextProvider = ({children}) => {
     const [userData, setUserData] = useState({});
     const [status, setStatus] = useState('init');
+    const [theme, setTheme] = useState('light');
     const value = {
         userData,
         setUserData,
         status,
-        setStatus
+        setStatus,
+        theme,
+        setTheme
     }
     return (
         <UserContext.Provider value={value}>

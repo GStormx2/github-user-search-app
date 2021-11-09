@@ -16,7 +16,7 @@ module.exports = {
         "img-small" : "70px"
       },
       maxWidth: {
-        "750" : '750px'
+        "750" : '730px'
       },
       fontSize : {
         "h1" : "26px",
@@ -39,7 +39,8 @@ module.exports = {
         "app-card-light" : "rgb(254, 254, 254)",
         "app-card-dark" : "#1e2a47",
         "app-blue" : "#0079ff",
-        "app-lightblue" : "60ABFF"
+        "app-lightblue" : "60ABFF",
+        "app-light-new" : "rgba(96, 133, 255, 0.1)"
       },
       textColor : {
         "app-blue" : "#0079ff",
@@ -48,12 +49,19 @@ module.exports = {
         "app-darkgray" : "#2b3442"
       },
       boxShadow : {
-        "dreamy" : "0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07)"
+        "dreamy" : "0 1px 2px rgba(96, 133, 255, 0.07), 0 2px 4px rgba(96, 133, 255, 0.07), 0 4px 8px rgba(96, 133, 255, 0.07), 0 8px 16px rgba(96, 133, 255, 0.07), 0 16px 32px rgba(96, 133, 255, 0.07)",
+        "dark-dreamy" : "0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07)",
+      },
+      placeholderColor: {
+        "search" : "#4b6a9b",
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      cursor: ['hover', 'focus'],
+      boxShadow: ['dark'],
+    },
   },
   plugins: [],
 }
