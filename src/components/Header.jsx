@@ -18,10 +18,12 @@ const Header = () => {
         if (theme === 'light') { 
             setTheme('dark');
             document.documentElement.classList.add('dark');
+
         }
         else { 
             setTheme('light');
             document.documentElement.classList.remove('dark');
+
         }
     }
 
