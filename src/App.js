@@ -6,6 +6,8 @@ import Search from './components/Search';
 import Profile from './components/Profile';
 import { ContextProvider } from './context/UserContext';
 
+// redeploying
+
 const App = () => {
   return (
       <div className="flex sm:block sm:px-5 sm:py-10 sm:w-screen justify-center items-center h-screen bg-app-light transition-all duration-300 dark:bg-app-dark">
